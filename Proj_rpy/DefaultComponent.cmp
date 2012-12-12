@@ -3,8 +3,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 	- _id = GUID 70f0916c-7a80-423e-9034-bf0f8fc32adb;
 	- _myState = 139264;
 	- _name = "DefaultComponent";
-	- _objectCreation = "1720909922201218240931217";
-	- _umlDependencyID = "3295";
+	- _objectCreation = "30101121212201204961230";
+	- _umlDependencyID = "3159";
 	- m_buildType = Executable;
 	- m_libraries = "";
 	- m_additionalSources = "";
@@ -15,8 +15,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 		- _id = GUID 8d6c206f-a535-4010-8faf-8152a139c514;
 		- _myState = 73728;
 		- _name = "Files";
-		- _objectCreation = "1720911922201218240911217";
-		- _umlDependencyID = "2129";
+		- _objectCreation = "30101141212201204941230";
+		- _umlDependencyID = "2002";
 		- m_path = "";
 		- Elements = { IRPYRawContainer 
 			- size = 0;
@@ -36,8 +36,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 			- _id = GUID 755b90d6-7501-485d-951e-bd25cea4e050;
 			- _myState = 8192;
 			- _name = "DefaultConfig";
-			- _objectCreation = "1720913922201218240891217";
-			- _umlDependencyID = "2946";
+			- _objectCreation = "30101161212201204921230";
+			- _umlDependencyID = "2810";
 			- _scopeType = Explicit;
 			- _libraries = "";
 			- _additionalSources = "";
@@ -60,8 +60,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 				- _id = GUID a052efc9-f732-4bd2-9225-ddb966d0abe5;
 				- _myState = 8192;
 				- _name = "DefaultConfig";
-				- _objectCreation = "1720915922201218240871217";
-				- _umlDependencyID = "2946";
+				- _objectCreation = "30101181212201204901230";
+				- _umlDependencyID = "2810";
 				- m_path = "";
 				- Elements = { IRPYRawContainer 
 					- size = 0;
@@ -79,7 +79,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 		}
 	}
 	- HandlesInMe = { IRPYRawContainer 
-		- size = 1;
+		- size = 2;
 		- value = 
 		{ IHandle 
 			- _m2Class = "ISubsystem";
@@ -88,6 +88,14 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 			- _class = "";
 			- _name = "Default";
 			- _id = GUID fba07cd8-ce2a-4bd9-93fd-0ba1e5a93f72;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Activity.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "Activity";
+			- _id = GUID 7de2abe4-f2a5-48c0-907b-54fb8a257ed9;
 		}
 	}
 	- VariationPoints = { IRPYRawContainer 
