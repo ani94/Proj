@@ -9,7 +9,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 			{ IPropertySubject 
 				- _Name = "Activity_diagram";
 				- Metaclasses = { IRPYRawContainer 
-					- size = 4;
+					- size = 5;
 					- value = 
 					{ IPropertyMetaclass 
 						- _Name = "Action";
@@ -62,6 +62,19 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						}
 					}
 					{ IPropertyMetaclass 
+						- _Name = "DecisionNode";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "show_name";
+								- _Value = "Label";
+								- _Type = Enum;
+								- _ExtraTypeInfo = "Name,Label,None";
+							}
+						}
+					}
+					{ IPropertyMetaclass 
 						- _Name = "DefaultTransition";
 						- Properties = { IRPYRawContainer 
 							- size = 3;
@@ -104,12 +117,12 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 			{ IPropertySubject 
 				- _Name = "Format";
 				- Metaclasses = { IRPYRawContainer 
-					- size = 7;
+					- size = 8;
 					- value = 
 					{ IPropertyMetaclass 
 						- _Name = "Action";
 						- Properties = { IRPYRawContainer 
-							- size = 8;
+							- size = 9;
 							- value = 
 							{ IProperty 
 								- _Name = "DefaultSize";
@@ -118,7 +131,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 							}
 							{ IProperty 
 								- _Name = "Fill.FillColor";
-								- _Value = "255,255,255";
+								- _Value = "192,192,192";
 								- _Type = Color;
 							}
 							{ IProperty 
@@ -142,13 +155,18 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 								- _Type = Int;
 							}
 							{ IProperty 
+								- _Name = "Font.Weight";
+								- _Value = "700";
+								- _Type = Int;
+							}
+							{ IProperty 
 								- _Name = "Line.LineColor";
 								- _Value = "0,112,0";
 								- _Type = Color;
 							}
 							{ IProperty 
 								- _Name = "Line.LineWidth";
-								- _Value = "3";
+								- _Value = "2";
 								- _Type = Int;
 							}
 						}
@@ -270,6 +288,58 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 							{ IProperty 
 								- _Name = "Line.LineColor";
 								- _Value = "221,0,0";
+								- _Type = Color;
+							}
+							{ IProperty 
+								- _Name = "Line.LineWidth";
+								- _Value = "4";
+								- _Type = Int;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "DecisionNode";
+						- Properties = { IRPYRawContainer 
+							- size = 9;
+							- value = 
+							{ IProperty 
+								- _Name = "DefaultSize";
+								- _Value = "0,0,77,48";
+								- _Type = String;
+							}
+							{ IProperty 
+								- _Name = "Fill.FillColor";
+								- _Value = "192,192,192";
+								- _Type = Color;
+							}
+							{ IProperty 
+								- _Name = "Font.Font";
+								- _Value = "Arial";
+								- _Type = String;
+							}
+							{ IProperty 
+								- _Name = "Font.FontColor";
+								- _Value = "0,0,0";
+								- _Type = Color;
+							}
+							{ IProperty 
+								- _Name = "Font.Height";
+								- _Value = "21";
+								- _Type = Int;
+							}
+							{ IProperty 
+								- _Name = "Font.Size";
+								- _Value = "16";
+								- _Type = Int;
+							}
+							{ IProperty 
+								- _Name = "Font.Weight";
+								- _Value = "700";
+								- _Type = Int;
+							}
+							{ IProperty 
+								- _Name = "Line.LineColor";
+								- _Value = "0,16,230";
 								- _Type = Color;
 							}
 							{ IProperty 
@@ -550,8 +620,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 		}
 	}
 	- _name = "Proj";
-	- _objectCreation = "5302212302012910436125";
-	- _umlDependencyID = "1876";
+	- _objectCreation = "4277692159201212418124";
+	- _umlDependencyID = "1902";
 	- _lastID = 4;
 	- _UserColors = { IRPYRawContainer 
 		- size = 16;
@@ -618,12 +688,12 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 					{ IPropertySubject 
 						- _Name = "Format";
 						- Metaclasses = { IRPYRawContainer 
-							- size = 7;
+							- size = 8;
 							- value = 
 							{ IPropertyMetaclass 
 								- _Name = "Action";
 								- Properties = { IRPYRawContainer 
-									- size = 8;
+									- size = 9;
 									- value = 
 									{ IProperty 
 										- _Name = "DefaultSize";
@@ -632,7 +702,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 									}
 									{ IProperty 
 										- _Name = "Fill.FillColor";
-										- _Value = "255,255,255";
+										- _Value = "192,192,192";
 										- _Type = Color;
 									}
 									{ IProperty 
@@ -656,13 +726,18 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 										- _Type = Int;
 									}
 									{ IProperty 
+										- _Name = "Font.Weight";
+										- _Value = "700";
+										- _Type = Int;
+									}
+									{ IProperty 
 										- _Name = "Line.LineColor";
 										- _Value = "0,112,0";
 										- _Type = Color;
 									}
 									{ IProperty 
 										- _Name = "Line.LineWidth";
-										- _Value = "3";
+										- _Value = "2";
 										- _Type = Int;
 									}
 								}
@@ -784,6 +859,58 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 									{ IProperty 
 										- _Name = "Line.LineColor";
 										- _Value = "221,0,0";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Line.LineWidth";
+										- _Value = "4";
+										- _Type = Int;
+									}
+								}
+							}
+							{ IPropertyMetaclass 
+								- _Name = "DecisionNode";
+								- Properties = { IRPYRawContainer 
+									- size = 9;
+									- value = 
+									{ IProperty 
+										- _Name = "DefaultSize";
+										- _Value = "0,0,77,48";
+										- _Type = String;
+									}
+									{ IProperty 
+										- _Name = "Fill.FillColor";
+										- _Value = "192,192,192";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Font.Font";
+										- _Value = "Arial";
+										- _Type = String;
+									}
+									{ IProperty 
+										- _Name = "Font.FontColor";
+										- _Value = "0,0,0";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Font.Height";
+										- _Value = "21";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Font.Size";
+										- _Value = "16";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Font.Weight";
+										- _Value = "700";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Line.LineColor";
+										- _Value = "0,16,230";
 										- _Type = Color;
 									}
 									{ IProperty 
@@ -964,9 +1091,9 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 				}
 			}
 			- _name = "Model1";
-			- _objectCreation = "5302412302012910434125";
-			- _umlDependencyID = "2011";
-			- _lastModifiedTime = "12.12.2012::3:55:52";
+			- _objectCreation = "4282972159201212-110124";
+			- _umlDependencyID = "2068";
+			- _lastModifiedTime = "12.21.2012::7:1:59";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 0546c7d7-4932-402f-a9c4-4f33748c4412;
 				- m_type = 0;
@@ -1085,12 +1212,12 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 					{ IPropertySubject 
 						- _Name = "Format";
 						- Metaclasses = { IRPYRawContainer 
-							- size = 12;
+							- size = 13;
 							- value = 
 							{ IPropertyMetaclass 
 								- _Name = "Action";
 								- Properties = { IRPYRawContainer 
-									- size = 8;
+									- size = 9;
 									- value = 
 									{ IProperty 
 										- _Name = "DefaultSize";
@@ -1099,7 +1226,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 									}
 									{ IProperty 
 										- _Name = "Fill.FillColor";
-										- _Value = "255,255,255";
+										- _Value = "192,192,192";
 										- _Type = Color;
 									}
 									{ IProperty 
@@ -1123,13 +1250,18 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 										- _Type = Int;
 									}
 									{ IProperty 
+										- _Name = "Font.Weight";
+										- _Value = "700";
+										- _Type = Int;
+									}
+									{ IProperty 
 										- _Name = "Line.LineColor";
 										- _Value = "0,112,0";
 										- _Type = Color;
 									}
 									{ IProperty 
 										- _Name = "Line.LineWidth";
-										- _Value = "3";
+										- _Value = "2";
 										- _Type = Int;
 									}
 								}
@@ -1251,6 +1383,58 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 									{ IProperty 
 										- _Name = "Line.LineColor";
 										- _Value = "221,0,0";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Line.LineWidth";
+										- _Value = "4";
+										- _Type = Int;
+									}
+								}
+							}
+							{ IPropertyMetaclass 
+								- _Name = "DecisionNode";
+								- Properties = { IRPYRawContainer 
+									- size = 9;
+									- value = 
+									{ IProperty 
+										- _Name = "DefaultSize";
+										- _Value = "0,0,77,48";
+										- _Type = String;
+									}
+									{ IProperty 
+										- _Name = "Fill.FillColor";
+										- _Value = "192,192,192";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Font.Font";
+										- _Value = "Arial";
+										- _Type = String;
+									}
+									{ IProperty 
+										- _Name = "Font.FontColor";
+										- _Value = "0,0,0";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Font.Height";
+										- _Value = "21";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Font.Size";
+										- _Value = "16";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Font.Weight";
+										- _Value = "700";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Line.LineColor";
+										- _Value = "0,16,230";
 										- _Type = Color;
 									}
 									{ IProperty 
@@ -1631,9 +1815,9 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 				}
 			}
 			- _name = "User";
-			- _objectCreation = "5302612302012910432125";
-			- _umlDependencyID = "1880";
-			- _lastModifiedTime = "12.12.2012::3:55:52";
+			- _objectCreation = "4282992159201212-112124";
+			- _umlDependencyID = "1941";
+			- _lastModifiedTime = "12.21.2012::7:1:59";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID ebac04e8-16f4-4292-9276-68e8c454c95c;
 				- m_type = 0;
@@ -1657,7 +1841,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 				}
 				- m_drawBehavior = 0;
 				- m_bIsPreferencesInitialized = 0;
-				- elementList = 51;
+				- elementList = 53;
 				{ CGIClass 
 					- _id = GUID 8b9c34d3-052e-401a-8b23-f8b3448d821e;
 					- m_type = 78;
@@ -5005,7 +5189,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.114646 0 0 0.126395 556.038 989.497 ;
+					- m_transform = 0.114646 0 0 0.126395 505.446 1004.58 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -6256,6 +6440,225 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 					- m_points = 4 597 478  638 478  638 496  597 496  ;
 					- m_text = "To play matches";
 				}
+				{ CGIBasicClass 
+					- _id = GUID 11a01d6f-4b9b-4fe5-a0e9-283689100bc8;
+					- m_type = 125;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IUseCase";
+						- _filename = "Default.sbs";
+						- _subsystem = "Default";
+						- _class = "";
+						- _name = "Play against server computer";
+						- _id = GUID c4c1629c-db32-4a45-87bd-c19bd14d49f6;
+					}
+					- m_pParent = GUID bca8e79d-2157-4beb-bc83-19f0a0b2a21f;
+					- m_name = { CGIText 
+						- m_str = "Play against server computer";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 5;
+					}
+					- m_drawBehavior = 2056;
+					- m_transform = 0.106596 0 0 0.104614 680.903 974.004 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_AdditionalLabel = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_polygon = 4 -2 -1  -2 1070  1127 1070  1127 -1  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+				}
+				{ CGIAssociationEnd 
+					- _id = GUID 6a3f9862-749d-445f-80c4-30a5d73cfb67;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "General";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Graphics";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ShowLabels";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 94;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "Default.sbs";
+						- _subsystem = "Default";
+						- _class = "Login";
+						- _name = "itsPlay against server computer";
+						- _id = GUID d96d86f1-c737-45c4-afa1-751825624c20;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_drawBehavior = 0;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 26774b7c-e01c-4f5d-91b7-6d1b64da8ad3;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 11a01d6f-4b9b-4fe5-a0e9-283689100bc8;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 7;
+					}
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 0;
+					- m_SourcePort = 881 909 ;
+					- m_TargetPort = 228 112 ;
+					- m_pInverseModelObject = { IAssociationEndHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "Default.sbs";
+						- _subsystem = "Default";
+						- _class = "Play against server computer";
+						- _name = "itsLogin";
+						- _id = GUID 4fe27655-d4d1-498c-b41a-02603e7983c5;
+					}
+					- m_pInstance = { IObjectLinkHandle 
+						- _m2Class = "";
+					}
+					- m_pInverseInstance = { IObjectLinkHandle 
+						- _m2Class = "";
+					}
+					- m_bShowSourceMultiplicity = 0;
+					- m_bShowSourceRole = 0;
+					- m_bShowTargetMultiplicity = 0;
+					- m_bShowTargetRole = 0;
+					- m_bShowLinkName = 1;
+					- m_bShowSpecificType = 0;
+					- m_bInstance = 0;
+					- m_bShowQualifier1 = 0;
+					- m_bShowQualifier2 = 0;
+					- m_sourceRole = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 2;
+						- m_bImplicitSetRectPoints = 0;
+					}
+					- m_targetRole = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 3;
+						- m_bImplicitSetRectPoints = 0;
+					}
+					- m_sourceMultiplicity = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 4;
+						- m_bImplicitSetRectPoints = 0;
+					}
+					- m_targetMultiplicity = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 5;
+						- m_bImplicitSetRectPoints = 0;
+					}
+					- m_sourceQualifier = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 6;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_targetQualifier = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 7;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_specificType = symmetric_type;
+				}
 				
 				- m_access = 'Z';
 				- m_modified = 'N';
@@ -6288,12 +6691,12 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 					{ IPropertySubject 
 						- _Name = "Format";
 						- Metaclasses = { IRPYRawContainer 
-							- size = 9;
+							- size = 10;
 							- value = 
 							{ IPropertyMetaclass 
 								- _Name = "Action";
 								- Properties = { IRPYRawContainer 
-									- size = 8;
+									- size = 9;
 									- value = 
 									{ IProperty 
 										- _Name = "DefaultSize";
@@ -6302,7 +6705,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 									}
 									{ IProperty 
 										- _Name = "Fill.FillColor";
-										- _Value = "255,255,255";
+										- _Value = "192,192,192";
 										- _Type = Color;
 									}
 									{ IProperty 
@@ -6326,13 +6729,18 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 										- _Type = Int;
 									}
 									{ IProperty 
+										- _Name = "Font.Weight";
+										- _Value = "700";
+										- _Type = Int;
+									}
+									{ IProperty 
 										- _Name = "Line.LineColor";
 										- _Value = "0,112,0";
 										- _Type = Color;
 									}
 									{ IProperty 
 										- _Name = "Line.LineWidth";
-										- _Value = "3";
+										- _Value = "2";
 										- _Type = Int;
 									}
 								}
@@ -6454,6 +6862,58 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 									{ IProperty 
 										- _Name = "Line.LineColor";
 										- _Value = "221,0,0";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Line.LineWidth";
+										- _Value = "4";
+										- _Type = Int;
+									}
+								}
+							}
+							{ IPropertyMetaclass 
+								- _Name = "DecisionNode";
+								- Properties = { IRPYRawContainer 
+									- size = 9;
+									- value = 
+									{ IProperty 
+										- _Name = "DefaultSize";
+										- _Value = "0,0,77,48";
+										- _Type = String;
+									}
+									{ IProperty 
+										- _Name = "Fill.FillColor";
+										- _Value = "192,192,192";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Font.Font";
+										- _Value = "Arial";
+										- _Type = String;
+									}
+									{ IProperty 
+										- _Name = "Font.FontColor";
+										- _Value = "0,0,0";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Font.Height";
+										- _Value = "21";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Font.Size";
+										- _Value = "16";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Font.Weight";
+										- _Value = "700";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Line.LineColor";
+										- _Value = "0,16,230";
 										- _Type = Color;
 									}
 									{ IProperty 
@@ -6713,9 +7173,9 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 				}
 			}
 			- _name = "Admin";
-			- _objectCreation = "5302812302012910430125";
-			- _umlDependencyID = "1954";
-			- _lastModifiedTime = "12.12.2012::3:55:52";
+			- _objectCreation = "562812159201212-111125";
+			- _umlDependencyID = "1955";
+			- _lastModifiedTime = "12.21.2012::7:1:59";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 1580638e-2f98-434e-ba0d-de0eabc2230c;
 				- m_type = 0;
